@@ -38,7 +38,8 @@ Q2: As testing volume increased over time, did Belgium's ICU burden improve — 
 
 
 
-## Component 2
+## Component 2: Snowsight Dashboard 
 
 
-## Component 3
+
+## Component 3: Streamlit in Snowflake App 
