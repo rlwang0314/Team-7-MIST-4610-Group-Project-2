@@ -24,10 +24,17 @@ We used four tables.
 4. The SCS_BE_DETAILED_HOSPITALISATIONS table has approximately 12.6K rows. The columns used from this table is TOTAL_IN_ICU (number). 
 
 **What makes the data non-trivial and why is it interesting/meaningful?**
+
 This dataset is non-trivial because both questions asked in this project combine multiple variables, perform calculations, and interpret patterns across different dimensions like region, gender, and time. For question 1, identifying which Belgian regions had the highest COVID-19 death rates requires comparing deaths to confirmed cases instead of using raw values. It also includes grouping the data by region and gender to compare mortality risk between males and females. This adds complexity because you can not just find the answer in the columns of data but requires aggregation and comparison across multiple categories. 
 
 This analysis is meaningful because it shows insights into how COVID-19 impacts different populations and healthcare systems. For example, differences in death rates between males and females across regions show potential demographic disparities. These findings are important because they show how data can reveal differences in risk across populations and evaluate how effectively a country manages healthcare during a crisis. 
 
+
+**Questions** 
+
+Q1: Which Belgian regions had the highest COVID-19 death rate relative to confirmed cases, and did mortality risk differ between males and females? 
+
+Q2: As testing volume increased over time, did Belgium's ICU burden improve — suggesting better pandemic control? 
 
 
 
