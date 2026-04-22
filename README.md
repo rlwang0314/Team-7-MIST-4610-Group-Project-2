@@ -39,7 +39,37 @@ Q2: As testing volume increased over time, did Belgium's ICU burden improve — 
 
 
 ## Component 2: Snowsight Dashboard 
+**Question 1:**
 
+<img width="692" height="461" alt="image" src="https://github.com/user-attachments/assets/465ad12b-4b07-4da7-a5c1-4c849726350d" />
+
+
+<img width="969" height="212" alt="image" src="https://github.com/user-attachments/assets/17e4d0de-82c8-47b7-ba87-d00398b16b68" />
+
+
+**What does this show and what does it mean?**
+
+Wallonia has the highest COVID-19 death rate relative to confirmed cases, followed by Flanders, while Brussels has the lowest. In all three regions, males consistently show slightly higher death rates than females. This suggests both regional differences in outcomes and a gender gap in COVID-19 mortality risk.
+
+
+**Question 2:**
+
+<img width="695" height="477" alt="image" src="https://github.com/user-attachments/assets/da4538a6-1a4b-459b-8d38-0bf71fca0e4a" />
+
+<img width="835" height="263" alt="image" src="https://github.com/user-attachments/assets/e28e08d9-23f2-4303-83f4-ac33b24f2d80" />
+
+**What does this show and what does it mean?**
+
+COVID-19 testing and new cases both increased over time, with noticeable spikes occurring during major waves of the pandemic. Even as testing expanded, new cases still rose sharply at certain points, indicating that increased testing did not prevent surges. This suggests that testing helped track the spread but was not enough on its own to control it. 
+
+<img width="735" height="514" alt="image" src="https://github.com/user-attachments/assets/34cf1739-374f-4bf1-887b-766e530c0083" />
+
+<img width="792" height="206" alt="image" src="https://github.com/user-attachments/assets/22678cc6-c363-4cf2-89ab-399198b8cdd5" />
+
+
+**What does this show and what does it mean?**
+
+ICU admissions show several major peaks, especially early in the pandemic and again during later waves, before gradually declining. Over time, the peaks become somewhat lower, indicating a possible improvement in managing severe cases. This suggests that while the healthcare system was heavily strained at times, Belgium may have improved its ability to handle critical cases as the pandemic progressed.
 
 
 ## Component 3: Streamlit in Snowflake App 
