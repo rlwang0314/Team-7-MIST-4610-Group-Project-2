@@ -77,3 +77,16 @@ ICU admissions show several major peaks, especially early in the pandemic and ag
 
 
 ## Component 3: Streamlit in Snowflake App 
+
+Reproduction of Visualization Using AI 
+<img width="1603" height="877" alt="image" src="https://github.com/user-attachments/assets/7dbafc34-604b-4f91-9f73-c3a6c205b3ef" />
+
+
+The interactive elements are shown on the left side. The date range filter lets users select a specific time period for the data. This lets users analyze trends within specific phases of the pandemic, instead of looking at one big timeline. For example, users would be able to isolate peaks and declines in cases and ICU usage. When users only see the full timeline, they may miss how relationships change over time. 
+
+The region filter (Brussels, Flanders, Wallonia) lets users select specific regions from the death-rate analysis. By adding this featuer, users would be able to compare regions directly (ex. Brussels vs. Flanders without Wallonia creating noise). Without the region filter, the chart makes users look at a full-country comparison and doesn't allow for focused regional insights. 
+
+
+The sex filter (Male/Female/Both) lets users isolate mortality data by gender. This directly supports our research question about gender differences in mortality risk. Users can compare male vs. female death rates and see whether differencces are consistent across regions. 
+
+All of these features combined provide analytical value by allowing users to explore the  data across time, geography, and demographics, rather than seeing only a fixed aggregate summary. 
