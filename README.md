@@ -39,6 +39,10 @@ Q2: As testing volume increased over time, did Belgium's ICU burden improve — 
 
 
 ## Component 2: Snowsight Dashboard 
+
+<img width="1546" height="835" alt="image" src="https://github.com/user-attachments/assets/c5adef7d-aa6a-433b-b97a-1aeb6a5ada48" />
+
+
 **Question 1:**
 
 <img width="692" height="461" alt="image" src="https://github.com/user-attachments/assets/465ad12b-4b07-4da7-a5c1-4c849726350d" />
