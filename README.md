@@ -90,3 +90,6 @@ The region filter (Brussels, Flanders, Wallonia) lets users select specific regi
 The sex filter (Male/Female/Both) lets users isolate mortality data by gender. This directly supports our research question about gender differences in mortality risk. Users can compare male vs. female death rates and see whether differencces are consistent across regions. 
 
 All of these features combined provide analytical value by allowing users to explore the  data across time, geography, and demographics, rather than seeing only a fixed aggregate summary. 
+
+**AI Use** 
+AI was used to improve the graphs and to add the interactive featuers. The code given by Streamlit was pasted into AI and asked what improvements it would make as well as what interactive features should be added to provide increased analytical insight. The suggestions were reviewed by the group and we decided which features should be added and what improvements we should let the AI make. 
