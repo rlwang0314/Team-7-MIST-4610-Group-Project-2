@@ -16,11 +16,11 @@ Sp26_71552_Group 7
 We selected the COVID-19 Epidemiological Dataset because it contains detailed information like confirmed cases and geographic breakdowns, allowing for analysis across countries. It also has time-series data and variables that can be aggregated and compared in different ways, making it possible to answer more complex questions. 
 
 **A brief description: number of tables, approximate row counts, key columns and data types, and which columns are relevent:**
-We used four tables. 
+We used four tables. The data from all four of these tables were provided by Sciensano. 
 
 1. The SCS_BE_DETAILED_PROVINCE_CASE_COUNTS table has approximately 236.6K rows. The columns used from this table are REGION (varchar), SEX (varchar), and NEW_CASES (number). 
-2. The SCS_BE_DETAILED_MORTALITY table has approximately 11.4K rows. The column used from this table is DEATHS (number).
-3. The SCS_BE_DETAILED_TESTS table has approximately 13.9K rows. The columns used from this table are TESTS (number).
+2. The SCS_BE_DETAILED_MORTALITY table has approximately 11.4K rows. The column used from this table is DEATHS (number). 
+3. The SCS_BE_DETAILED_TESTS table has approximately 13.9K rows. The columns used from this table are TESTS (number). 
 4. The SCS_BE_DETAILED_HOSPITALISATIONS table has approximately 12.6K rows. The columns used from this table is TOTAL_IN_ICU (number). 
 
 **What makes the data non-trivial and why is it interesting/meaningful?**
@@ -34,8 +34,11 @@ This analysis is meaningful because it shows insights into how COVID-19 impacts 
 
 Q1: Which Belgian regions had the highest COVID-19 death rate relative to confirmed cases, and did mortality risk differ between males and females? 
 
+Question 1 is meaningful because it can help identify which regions should have more targeted public health messaging. Economically, regions with higher death rates also experience workforce loss and reduced productivity. Differences in mortality rates basee on gender can affect labor markets, especially in areas dominated by one gender. This question can also help determine which regions need more medical resources and support decisions such as lockdowns and hospital expansion. 
+
 Q2: As testing volume increased over time, did Belgium's ICU burden improve — suggesting better pandemic control? 
 
+Question 2 is meaningful because it can indicate if the country is getting ahead of the virus (more testing means earlier detection and less severe cases). Economically, if there are fewer severe cases, there would be less disruption in the workforce, reducing the need for strict lockdowns and thus improving economic stability. This can also help provide insight on if the healthcare system is being overwhelmed. 
 
 
 ## Component 2: Snowsight Dashboard 
