@@ -82,7 +82,7 @@ ICU occupancy actually peaked higher in February 2021 than it did in the first w
 ## Component 3: Streamlit in Snowflake App 
 
 Reproduction of Visualization Using AI 
-<img width="1603" height="877" alt="image" src="https://github.com/user-attachments/assets/7dbafc34-604b-4f91-9f73-c3a6c205b3ef" />
+<img width="1602" height="878" alt="image" src="https://github.com/user-attachments/assets/b1562219-c9f1-438a-b1e2-455a3ae0c066" />
 
 
 The interactive elements are shown on the left side. The date range filter lets users select a specific time period for the data. This lets users analyze trends within specific phases of the pandemic, instead of looking at one big timeline. For example, users would be able to isolate peaks and declines in cases and ICU usage. When users only see the full timeline, they may miss how relationships change over time. 
