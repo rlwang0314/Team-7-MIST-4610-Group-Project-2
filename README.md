@@ -16,7 +16,7 @@ Sp26_71552_Group 7
 We selected the COVID-19 Epidemiological Dataset because it contains detailed information like confirmed cases and geographic breakdowns, allowing for analysis across countries. It also has time-series data and variables that can be aggregated and compared in different ways, making it possible to answer more complex questions. 
 
 **A brief description: number of tables, approximate row counts, key columns and data types, and which columns are relevent:**
-We used four tables. The data from all four of these tables were provided by Sciensano. 
+We used four tables. The data from all four of these tables were provided by Star Schema and sourced from Sciensano.
 
 1. The SCS_BE_DETAILED_PROVINCE_CASE_COUNTS table has approximately 236.6K rows. The columns used from this table are REGION (varchar), SEX (varchar), and NEW_CASES (number). 
 2. The SCS_BE_DETAILED_MORTALITY table has approximately 11.4K rows. The column used from this table is DEATHS (number). 
