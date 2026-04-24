@@ -67,7 +67,7 @@ Wallonia has the highest COVID-19 death rate relative to confirmed cases, follow
 
 **What does this show and what does it mean?**
 
-COVID-19 testing and new cases both increased over time, with noticeable spikes occurring during major waves of the pandemic. Even as testing expanded, new cases still rose sharply at certain points, indicating that increased testing did not prevent surges. This suggests that testing helped track the spread but was not enough on its own to control it. 
+As testing increased over time, new cases still spiked during major waves, showing that more testing did not necessarily prevent surges. However, testing consistently outnumbered new cases, especially in later waves, suggesting Belgium was able to track the virus more effectively over time. This means that while testing improved visibility into the spread, it was not enough on its own to control it.
 
 <img width="735" height="514" alt="image" src="https://github.com/user-attachments/assets/34cf1739-374f-4bf1-887b-766e530c0083" />
 
@@ -76,7 +76,7 @@ COVID-19 testing and new cases both increased over time, with noticeable spikes 
 
 **What does this show and what does it mean?**
 
-ICU admissions show several major peaks, especially early in the pandemic and again during later waves, before gradually declining. Over time, the peaks become somewhat lower, indicating a possible improvement in managing severe cases. This suggests that while the healthcare system was heavily strained at times, Belgium may have improved its ability to handle critical cases as the pandemic progressed.
+ICU occupancy actually peaked higher in February 2021 than it did in the first wave of March 2020, meaning that even as testing expanded, the healthcare system was still being heavily strained. After that second wave though, ICU peaks dropped progressively with each subsequent wave, suggesting Belgium got better at managing severe cases over time. This partially answers our question, ICU burden did improve in the long run, but testing volume alone was likely not the main reason, as other factors like vaccination probably played a bigger role. 
 
 
 ## Component 3: Streamlit in Snowflake App 
