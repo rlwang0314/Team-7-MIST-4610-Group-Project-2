@@ -20,8 +20,8 @@ We used four tables. The data from all four of these tables were provided by Sta
 
 1. The SCS_BE_DETAILED_PROVINCE_CASE_COUNTS table has approximately 236.6K rows. The columns used from this table are REGION (varchar), SEX (varchar), and NEW_CASES (number). 
 2. The SCS_BE_DETAILED_MORTALITY table has approximately 11.4K rows. The column used from this table is DEATHS (number). 
-3. The SCS_BE_DETAILED_TESTS table has approximately 13.9K rows. The columns used from this table are TESTS (number). 
-4. The SCS_BE_DETAILED_HOSPITALISATIONS table has approximately 12.6K rows. The columns used from this table is TOTAL_IN_ICU (number). 
+3. The SCS_BE_DETAILED_TESTS table has approximately 13.9K rows. The column used from this table is TESTS (number). 
+4. The SCS_BE_DETAILED_HOSPITALISATIONS table has approximately 12.6K rows. The column used from this table is TOTAL_IN_ICU (number). 
 
 **What makes the data non-trivial and why is it interesting/meaningful?**
 
