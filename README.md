@@ -34,7 +34,7 @@ This analysis is meaningful because it shows insights into how COVID-19 impacts 
 
 Q1: Which Belgian regions had the highest COVID-19 death rate relative to confirmed cases, and did mortality risk differ between males and females? 
 
-Question 1 is meaningful because it can help identify which regions should have more targeted public health messaging. Economically, regions with higher death rates also experience workforce loss and reduced productivity. Differences in mortality rates basee on gender can affect labor markets, especially in areas dominated by one gender. This question can also help determine which regions need more medical resources and support decisions such as lockdowns and hospital expansion. 
+Question 1 is meaningful because it can help identify which regions should have more targeted public health messaging. Economically, regions with higher death rates also experience workforce loss and reduced productivity. Differences in mortality rates based on gender can affect labor markets, especially in areas dominated by one gender. This question can also help determine which regions need more medical resources and support decisions such as lockdowns and hospital expansion. 
 
 Q2: As testing volume increased over time, did Belgium's ICU burden improve — suggesting better pandemic control? 
 
