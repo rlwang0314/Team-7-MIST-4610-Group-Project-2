@@ -56,6 +56,8 @@ Question 2 is meaningful because it can indicate if the country is getting ahead
 
 **What does this show and what does it mean?**
 
+The bar chart compares COVID-19 death rates across three Belgian regions: Wallonia, Flanders, and Brussels. 
+
 Wallonia has the highest COVID-19 death rate relative to confirmed cases, followed by Flanders, while Brussels has the lowest. In all three regions, males consistently show slightly higher death rates than females. This suggests both regional differences in outcomes and a gender gap in COVID-19 mortality risk.
 
 
@@ -67,6 +69,8 @@ Wallonia has the highest COVID-19 death rate relative to confirmed cases, follow
 
 **What does this show and what does it mean?**
 
+This chart shows the relationship between COVID-19 testing volume and new cases in Belgium over time. It shows how the pandemic evolved in the region. 
+
 As testing increased over time, new cases still spiked during major waves, showing that more testing did not necessarily prevent surges. However, testing consistently outnumbered new cases, especially in later waves, suggesting Belgium was able to track the virus more effectively over time. This means that while testing improved visibility into the spread, it was not enough on its own to control it.
 
 <img width="735" height="514" alt="image" src="https://github.com/user-attachments/assets/34cf1739-374f-4bf1-887b-766e530c0083" />
@@ -75,6 +79,8 @@ As testing increased over time, new cases still spiked during major waves, showi
 
 
 **What does this show and what does it mean?**
+
+This chart shows how overwhelmed the healthcare system was over time during COVID-19 in Belgium. It indicated how severe the pandemic was at certain times. 
 
 ICU occupancy actually peaked higher in February 2021 than it did in the first wave of March 2020, meaning that even as testing expanded, the healthcare system was still being heavily strained. After that second wave though, ICU peaks dropped progressively with each subsequent wave, suggesting Belgium got better at managing severe cases over time. This partially answers our question, ICU burden did improve in the long run, but testing volume alone was likely not the main reason, as other factors like vaccination probably played a bigger role. 
 
