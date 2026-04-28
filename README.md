@@ -51,14 +51,19 @@ Question 2 is meaningful because it can indicate if the country is getting ahead
 <img width="692" height="461" alt="image" src="https://github.com/user-attachments/assets/465ad12b-4b07-4da7-a5c1-4c849726350d" />
 
 
-<img width="969" height="212" alt="image" src="https://github.com/user-attachments/assets/17e4d0de-82c8-47b7-ba87-d00398b16b68" />
-
-
 **What does this show and what does it mean?**
 
 The bar chart compares COVID-19 death rates across three Belgian regions: Wallonia, Flanders, and Brussels. 
 
 Wallonia has the highest COVID-19 death rate relative to confirmed cases, followed by Flanders, while Brussels has the lowest. In all three regions, males consistently show slightly higher death rates than females. This suggests both regional differences in outcomes and a gender gap in COVID-19 mortality risk.
+
+
+<img width="969" height="212" alt="image" src="https://github.com/user-attachments/assets/17e4d0de-82c8-47b7-ba87-d00398b16b68" />
+
+
+**Data Manipulations**:
+
+This query joins the case counts table and the mortality table on region, sex, and date to combine case and death data into a single result. We then aggregated the data by region and sex using SUM to get total cases and total deaths for each group. The key calculated field is DEATH_RATE_PCT, which divides total deaths by total cases and multiplies by 100 to produce a percentage, allowing for a fair comparison across regions rather than relying on raw death counts alone.
 
 
 **Question 2:**
