@@ -61,7 +61,7 @@ Wallonia has the highest COVID-19 death rate relative to confirmed cases, follow
 <img width="969" height="212" alt="image" src="https://github.com/user-attachments/assets/17e4d0de-82c8-47b7-ba87-d00398b16b68" />
 
 
-**Data Manipulations**:
+**Data Manipulations (Q1)**:
 
 This query joins the case counts table and the mortality table on region, sex, and date to combine case and death data into a single result. We then aggregated the data by region and sex using SUM to get total cases and total deaths for each group. The key calculated field is DEATH_RATE_PCT, which divides total deaths by total cases and multiplies by 100 to produce a percentage, allowing for a fair comparison across regions rather than relying on raw death counts alone.
 
@@ -81,7 +81,7 @@ As testing increased over time, new cases still spiked during major waves, showi
 <img width="835" height="263" alt="image" src="https://github.com/user-attachments/assets/e28e08d9-23f2-4303-83f4-ac33b24f2d80" />
 
 
-**Data Manipulations**:
+**Data Manipulations (Q2 Chart 1)**:
 
 This query uses a WITH clause to separately aggregate total tests and total new cases by date from their respective tables into two named subqueries. The two results are then joined on date so that both metrics appear side by side for each day, making it easy to compare testing volume against case counts over time. Ordering by date ensures the result is structured as a proper time series for visualization.
 
@@ -99,7 +99,7 @@ ICU occupancy actually peaked higher in February 2021 than it did in the first w
 <img width="792" height="206" alt="image" src="https://github.com/user-attachments/assets/22678cc6-c363-4cf2-89ab-399198b8cdd5" />
 
 
-**Data Manipulations**:
+**Data Manipulations (Q2 Chart 2)**:
 
 This query uses a WITH clause to aggregate total ICU occupancy by date from the hospitalizations table using SUM. The result is then selected and ordered by date to produce a clean time series showing how ICU load changed over the course of the pandemic.
 
