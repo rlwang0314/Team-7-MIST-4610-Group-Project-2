@@ -88,14 +88,20 @@ This query uses a WITH clause to separately aggregate total tests and total new 
 
 <img width="735" height="514" alt="image" src="https://github.com/user-attachments/assets/34cf1739-374f-4bf1-887b-766e530c0083" />
 
-<img width="792" height="206" alt="image" src="https://github.com/user-attachments/assets/22678cc6-c363-4cf2-89ab-399198b8cdd5" />
-
 
 **What does this show and what does it mean?**
 
 This chart shows how overwhelmed the healthcare system was over time during COVID-19 in Belgium. It indicated how severe the pandemic was at certain times. 
 
 ICU occupancy actually peaked higher in February 2021 than it did in the first wave of March 2020, meaning that even as testing expanded, the healthcare system was still being heavily strained. After that second wave though, ICU peaks dropped progressively with each subsequent wave, suggesting Belgium got better at managing severe cases over time. This partially answers our question, ICU burden did improve in the long run, but testing volume alone was likely not the main reason, as other factors like vaccination probably played a bigger role. 
+
+
+<img width="792" height="206" alt="image" src="https://github.com/user-attachments/assets/22678cc6-c363-4cf2-89ab-399198b8cdd5" />
+
+
+**Data Manipulations**:
+
+This query uses a WITH clause to aggregate total ICU occupancy by date from the hospitalizations table using SUM. The result is then selected and ordered by date to produce a clean time series showing how ICU load changed over the course of the pandemic.
 
 
 ## Component 3: Streamlit in Snowflake App 
