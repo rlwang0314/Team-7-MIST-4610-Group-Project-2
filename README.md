@@ -46,11 +46,9 @@ Question 2 is meaningful because it can indicate if the country is getting ahead
 <img width="1546" height="835" alt="image" src="https://github.com/user-attachments/assets/c5adef7d-aa6a-433b-b97a-1aeb6a5ada48" />
 
 
-
 **Question 1:**
 
 <img width="692" height="461" alt="image" src="https://github.com/user-attachments/assets/465ad12b-4b07-4da7-a5c1-4c849726350d" />
-
 
 
 **What does this show and what does it mean?**
@@ -63,24 +61,30 @@ Wallonia has the highest COVID-19 death rate relative to confirmed cases, follow
 <img width="969" height="212" alt="image" src="https://github.com/user-attachments/assets/17e4d0de-82c8-47b7-ba87-d00398b16b68" />
 
 
-
 **Data Manipulations**:
 
 This query joins the case counts table and the mortality table on region, sex, and date to combine case and death data into a single result. We then aggregated the data by region and sex using SUM to get total cases and total deaths for each group. The key calculated field is DEATH_RATE_PCT, which divides total deaths by total cases and multiplies by 100 to produce a percentage, allowing for a fair comparison across regions rather than relying on raw death counts alone.
-
 
 
 **Question 2:**
 
 <img width="695" height="477" alt="image" src="https://github.com/user-attachments/assets/da4538a6-1a4b-459b-8d38-0bf71fca0e4a" />
 
-<img width="835" height="263" alt="image" src="https://github.com/user-attachments/assets/e28e08d9-23f2-4303-83f4-ac33b24f2d80" />
 
 **What does this show and what does it mean?**
 
 This chart shows the relationship between COVID-19 testing volume and new cases in Belgium over time. It shows how the pandemic evolved in the region. 
 
 As testing increased over time, new cases still spiked during major waves, showing that more testing did not necessarily prevent surges. However, testing consistently outnumbered new cases, especially in later waves, suggesting Belgium was able to track the virus more effectively over time. This means that while testing improved visibility into the spread, it was not enough on its own to control it.
+
+
+<img width="835" height="263" alt="image" src="https://github.com/user-attachments/assets/e28e08d9-23f2-4303-83f4-ac33b24f2d80" />
+
+
+**Data Manipulations**:
+
+This query uses a WITH clause to separately aggregate total tests and total new cases by date from their respective tables into two named subqueries. The two results are then joined on date so that both metrics appear side by side for each day, making it easy to compare testing volume against case counts over time. Ordering by date ensures the result is structured as a proper time series for visualization.
+
 
 <img width="735" height="514" alt="image" src="https://github.com/user-attachments/assets/34cf1739-374f-4bf1-887b-766e530c0083" />
 
