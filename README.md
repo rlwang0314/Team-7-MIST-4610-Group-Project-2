@@ -112,13 +112,13 @@ Reproduction of Visualization Using AI
 
 The interactive elements are shown on the left side. The date range filter lets users select a specific time period for the data. This lets users analyze trends within specific phases of the pandemic, instead of looking at one big timeline. For example, users would be able to isolate peaks and declines in cases and ICU usage. When users only see the full timeline, they may miss how relationships change over time. 
 
-The region filter (Brussels, Flanders, Wallonia) lets users select specific regions from the death-rate analysis. By adding this featuer, users would be able to compare regions directly (ex. Brussels vs. Flanders without Wallonia creating noise). Without the region filter, the chart makes users look at a full-country comparison and doesn't allow for focused regional insights. 
+The region filter (Brussels, Flanders, Wallonia) lets users select specific regions from the death-rate analysis. By adding this feature, users would be able to compare regions directly (ex. Brussels vs. Flanders without Wallonia creating noise). Without the region filter, the chart makes users look at a full-country comparison and doesn't allow for focused regional insights. 
 
 
-The sex filter (Male/Female/Both) lets users isolate mortality data by gender. This directly supports our research question about gender differences in mortality risk. Users can compare male vs. female death rates and see whether differencces are consistent across regions. 
+The sex filter (Male/Female/Both) lets users isolate mortality data by gender. This directly supports our research question about gender differences in mortality risk. Users can compare male vs. female death rates and see whether differences are consistent across regions. 
 
 All of these features combined provide analytical value by allowing users to explore the  data across time, geography, and demographics, rather than seeing only a fixed aggregate summary. 
 
 **AI Use:** 
 
-AI was used to improve the graphs and to add the interactive featuers. The code given by Streamlit was pasted into AI and asked what improvements it would make as well as what interactive features should be added to provide increased analytical insight. The suggestions were reviewed by the group and we decided which features should be added and what improvements we should let the AI make. 
+AI was used to improve the graphs and to add the interactive features. The code given by Streamlit was pasted into AI and asked what improvements it would make as well as what interactive features should be added to provide increased analytical insight. The suggestions were reviewed by the group and we decided which features should be added and what improvements we should let the AI make. 
